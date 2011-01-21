@@ -1,0 +1,29 @@
+.ui-content p, .ui-content .ui-input-text {
+  text-shadow: black 1px 1px 0px;
+  color: #e9bd7f !important; }
+
+#index-content h4 {
+  text-shadow: black 1px 1px 0px;
+  border-bottom: 3px solid #40200d;
+  color: #fef092;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  margin-bottom: 10px;
+  padding: 0.2em 0;
+  text-transform: uppercase; }
+#index-content p.discounts-breakdown {
+  text-shadow: none !important;
+  color: white;
+  font-size: 11px;
+  line-height: 1.2em;
+  margin: 0px;
+  padding: 0px; }
+#index-content p.discounts-breakdown span.discount {
+  color: yellow; }
+
+.ui-header .ui-btn .ui-btn-text, .ui-footer .ui-btn .ui-btn-text {
+  font-size: 11px; }
+
+#recent-achievements li.ui-btn .ui-btn-text {
+  font-size: 11px; }

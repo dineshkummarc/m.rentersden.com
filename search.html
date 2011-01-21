@@ -1,0 +1,88 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <meta name="viewport" content="width=default-width; user-scalable=no" /> 
+  <meta http-equiv="Content-type" content="text/html; charset=utf-8"> 
+  <title>Renters Den: Mobile Version</title> 
+  <link rel="stylesheet" href="css/all.css" />
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.mobile.min.js"></script> 
+</head> 
+<body> 
+
+<div data-role="page" data-theme="c" id="search">
+  <div id="search-content" data-role="content">
+    
+    <h1><img src="images/mainlogo.jpg"></h1>
+      
+    
+    <div data-role="fieldcontain" class="ui-field-contain ui-body ui-br">
+      <label for="min-price" class="ui-input-text ui-slider" id="min-price-label">Min Price:</label> <input data-type="range" name="min-slider" id="min-price" value="0" min="0" max="2000" class="ui-input-text ui-body-null ui-corner-all ui-shadow-inset ui-body-c ui-slider-input">
+    </div>
+    <div data-role="fieldcontain" class="ui-field-contain ui-body ui-br">
+      <label for="max-price" class="ui-input-text ui-slider" id="max-price-label">Max Price:</label> <input data-type="range" name="max-slider" id="max-price" value="2000" min="0" max="2000" class="ui-input-text ui-body-null ui-corner-all ui-shadow-inset ui-body-c ui-slider-input">
+    </div>
+    
+    
+    
+    
+
+
+      <ul id="search-listings" data-role="listview" data-split-icon="gear" data-split-theme="b" class="ui-listview" role="listbox">
+        <li>
+          <img src="images/1.jpg" />
+          <h3><a href="index.html">$1600/2BR Joyce Station</a></h3>
+          <p class="contact-info">Contact Jim Jonsin</p>
+          <p class="rating">95% Landlord Approval Rating</p>
+        </li>
+        <li>
+          <img src="images/1.jpg" />
+          <h3><a href="index.html">$1600/1BR False Creek</a></h3>
+          <p class="contact-info">Contact Jim Jonsin</p>
+          <p class="rating">95% Landlord Approval Rating</p>
+        </li>
+        <li>
+          <img src="images/1.jpg" />
+          <h3><a href="index.html">$2300/2BR False Creek</a></h3>
+          <p class="contact-info">Contact Jim Jonsin</p>
+          <p class="rating">95% Landlord Approval Rating</p>      
+        </li>
+        <li>
+          <img src="images/1.jpg" />
+          <h3><a href="index.html">$1495/1BR Downtown Vancouver </a></h3>
+          <p class="contact-info">Contact Jim Jonsin</p>
+          <p class="rating">95% Landlord Approval Rating</p>
+        </li>
+        <li>
+          <img src="images/1.jpg" />
+          <h3><a href="index.html">$700/1BR Yaletown</a></h3>
+          <p class="contact-info">Contact Jim Jonsin</p>
+          <p class="rating">95% Landlord Approval Rating</p>
+        </li>
+      </ul>
+    </div>
+    
+    
+
+
+
+    <div data-role="footer" data-id="foo1" data-position="fixed" class="ui-bar-a ui-footer ui-footer-fixed fade ui-fixed-overlay" role="contentinfo" style="top: 0px; ">
+      <div data-role="navbar" class="ui-navbar ui-navbar-noicons" role="navigation">
+        <ul class="ui-grid-b">
+          <li class="ui-block-a"><a href="index.html" data-theme="a" class="ui-btn ui-btn-up-a"><span class="ui-btn-inner"><span class="ui-btn-text">Popular</span></span></a></li>
+          <li class="ui-block-b"><a href="location.html" class="ui-btn ui-btn-up-a" data-theme="a"><span class="ui-btn-inner"><span class="ui-btn-text">Locations</span></span></a></li>
+          <li class="ui-block-c"><a href="search.html" data-theme="a" class="ui-btn-active ui-btn ui-btn-up-a"><span class="ui-btn-inner"><span class="ui-btn-text">Search</span></span></a></li>
+        </ul>
+      </div><!-- /navbar -->
+    </div>
+  </div>
+  
+  
+  
+  
+  
+</div>
+
+</body>
+<script src="js/Application.js"></script>
+</html>
