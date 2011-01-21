@@ -10,4 +10,8 @@ Somehow landed on rentersden.com and saw their mobile app. Gave me the heeby jee
 * location.html = landing page for users region (this should probably first page)
 
 
+##Starting up sass
+
+<code>sass --watch sass/:css/ --style=compressed</code>
+
 *Warning: did not test on android or blackberry*
